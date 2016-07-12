@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<form>
+	<fieldset>
+		<legend>Your Details:</legend>
+		Name: <input type="text" name="customerName"><br>
+		Email: <input type="email" name="customerEmail"><br>
+	</fieldset>
+	<fieldset>
+		<legend>Your Review:</legend>
+		How did you hear about us?
+		<select autofocus>
+			<option value="Google">Google</option>
+			<option value="Friends">Friends</option>
+			<option value="SocialNetwrok">SocialNetwork</option>
+			<option value="Magazine">Magazine</option>
+			<option value="Others">Others</option>
+		</select>
+		<br><br>
+		Would you visit again?
+		<br>
+		<input type="radio" name="visitOption" value="Yes">Yes
+		<input type="radio" name="visitOption" value="No">No
+		<input type="radio" name="visitOption" value="Maybe">Maybe<br><br>
+		Comments: <br>
+		<textarea rows="6" cols="50"></textarea>
+		<br>
+		<input type="checkbox" name="signmeUp" checked="">Sign me up for email updates<br>
+		<input type="button" name="submitReview" value="Submit review">
+	</fieldset>
+</form>
+</body>
+</html>
